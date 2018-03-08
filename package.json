@@ -1,0 +1,21 @@
+{
+  "name": "hello-http-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha test",
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "axios": "^0.16.2",
+    "chai": "^4.0.2",
+    "mocha": "^3.5.0",
+    "nightmare": "^2.10.0"
+  }
+}
